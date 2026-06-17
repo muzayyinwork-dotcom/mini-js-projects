@@ -1,1 +1,33 @@
-/*# sourceMappingURL=index.css.map */
+body {
+  background-color: #0F172A;
+}
+
+#heading {
+  text-align: center;
+  background-color: #1E293B;
+  padding: 20px;
+  color: #F8FAFC;
+}
+
+.card {
+  text-align: center;
+  margin: 20px;
+}
+
+.card-img-top {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-text {
+  text-align: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.date {
+  color: #F8FAFC;
+  padding-left: 20px;
+  background-color: #3B82F6;
+}/*# sourceMappingURL=index.css.map */
