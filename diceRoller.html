@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./dist/css/diceRoller.css">
+</head>
+<body>
+    <h1 id="heading">Dice Roller</h1>
+
+    <div class="container">
+    <label>Number of dice: </label>
+    <input type="number" id="numOfDice" value="1" min="1"></input>
+    <button onclick="rollDice()">Roll Dice</button>
+    </div>
+    <div id="result"></div>
+    <div id="images"></div>
+
+    <br> <br>
+    <h1 class="Link"><a href="index.html">Home Page</a></h1>
+
+    <script src="./js/diceRoller.js"></script>
+</body>
+</html>
