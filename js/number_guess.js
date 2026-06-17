@@ -20,9 +20,9 @@ while(running){
     else{
         attempts++;
         if(guess < answer){
-            window.alert("Number is Low! Try again!")
+            window.alert("Incorrect! Guess a higher number! Try again!")
         } else if (guess > answer){
-            window.alert("Number is High! Try again!")
+            window.alert("Incorrect! Guess a lower number! Try again!")
         } else {
             window.alert('CONGRATS! You win');
             running = false;

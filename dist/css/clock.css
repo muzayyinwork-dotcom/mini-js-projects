@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(0, 229, 255);
+}
+
+.Clock {
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.heading {
+  margin-top: 50px;
+}
+
+.Link {
+  text-align: center;
+}/*# sourceMappingURL=clock.css.map */
