@@ -22,6 +22,7 @@ body {
   padding-left: 20px;
   color: antiquewhite;
   margin-top: -10px;
+  padding: 20px;
 }
 
 .card {
@@ -46,6 +47,8 @@ body {
 }
 
 .date {
+  margin-top: -15px;
+  margin-bottom: 20px;
   color: #F8FAFC;
   padding-left: 20px;
   background-color: #3B82F6;
