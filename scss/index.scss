@@ -1,21 +1,41 @@
 body{
     background-color: #0F172A;
 }
-#heading{
+
+.top{
     text-align: center;
     background-color: #1E293B;
     padding: 20px;
     color: #F8FAFC;
+    border: 2px solid black;
+}
+
+#heading {
+    padding: 20px;
+    text-align: center;
+    color: #F8FAFC;
+    background-color: black;
+}
+
+#desc {
+    background-color: black;
+    padding-left: 20px;
+    color: antiquewhite;
+    margin-top: -10px;
 }
 
 .card{
     text-align: center;
     margin: 20px;
+    border: 2px solid black;
+    box-shadow: 10px black;
 }
 
 .card-img-top {
+    margin-top: 2px;
     height: 200px;
     object-fit:cover;
+    border: 2px solid rgb(57, 57, 57);
 }
 
 .card-text {
