@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#heading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(226, 226, 226);
+}
+
+.choices button{
+    align-items: center;
+    margin-top: 20px;
+    font-size: 45px;
+    background-color: rgb(96, 238, 238);
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.choices button:hover {
+    background-color: rgb(8, 48, 223);
+}
+
+#playerDisplay {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+#compDisplay {
+    font-size: 30px;
+}
+
+#resultDisplay {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.winText, #pScoreNum{
+    color: green;
+}
+
+.loseText, #cScoreNum{
+    color:red;
+}
+.tieText{
+    color: orange;
+}
+
+.Link {
+    text-align: center;
+}

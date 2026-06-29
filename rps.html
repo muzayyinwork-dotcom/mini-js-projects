@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock - Paper - Scissors</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./dist/css/rps.css">
+<body>
+    <h1 id="heading">Rock - Paper - Scissors</h1>
+
+    <div class="choices">
+    <button onclick="playGame('rock')">👊</button>
+    <button onclick="playGame('paper')">🤚</button>
+    <button onclick="playGame('scissors')">✌️</button>
+    </div>
+
+    <div id="playerDisplay">Player: </div>
+    <div id="compDisplay">Computer: </div>
+    <div id="resultDisplay"></div> <br><br>
+    <div id="playerScore">Player Score: 
+        <span id="pScoreNum">0</span>
+    </div>
+    <div id="compScore">Computer Score: 
+        <span id="cScoreNum">0</span>
+    </div>
+
+    <br> <br>
+    <h1 class="Link"><a href="index.html">Home Page</a></h1>
+
+    <script src="./js/rps.js"></script>
+</body>
+</html>
