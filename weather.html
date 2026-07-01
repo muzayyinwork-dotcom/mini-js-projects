@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stopwatch</title>
+    <title>The Weather</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="./dist/css/stopwatch.css">
+    <link rel="stylesheet" href="./dist/css/weather.css">
 </head>
 <body>
+    
+    <h1 id="heading">The Weather</h1>
 
-    <h1 class="heading">Stopwatch</h1>
-    <div id="display">
-        00:00:00:00
-    </div>
-    <div id="controls">
-        <button id="startBtn" onclick="start()">Start</button>
-        <button id="stopBtn" onclick="stop()">Stop</button>
-        <button id="resetBtn" onclick="reset()">Reset</button>
+    <form class="weatherForm">
+        <input type="text" placeholder="Enter City Name" id="inputCity">
+        <button type="submit" id="inputGet">Get Weather</button>
+    </form>
+
+    <div class="card" style="display:none">
+        
     </div>
 
     <br> <br>
     <h1 class="Link"><a id="homeLink" href="index.html">Home Page</a></h1>
-    
-    <script src="./js/stopwatch.js"></script>
+
+    <script src="./js/weather.js"></script>
 </body>
 </html>

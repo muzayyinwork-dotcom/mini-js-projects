@@ -1,0 +1,70 @@
+body {
+  display: block;
+  text-align: center;
+}
+
+#heading {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: rgb(52, 53, 56);
+  padding: 20px;
+}
+
+.weatherForm {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#inputCity {
+  font-size: 30px;
+}
+
+#inputGet {
+  font-size: 30px;
+  background-color: rgb(1, 91, 1);
+  color: white;
+}
+
+#inputGet:hover {
+  background-color: rgb(0, 255, 0);
+  color: rgb(44, 43, 43);
+}
+
+.card {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background: linear-gradient(to bottom, rgb(255, 5, 168), rgb(27, 64, 209));
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
+}
+
+.cityDisplay {
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.tempDisplay, .humidityDisplay, .descDisplay, .emojiDisplay, .errorDisplay {
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#homeLink {
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  background: linear-gradient(to bottom, rgb(255, 5, 168), rgb(27, 64, 209));
+  text-decoration: none;
+  border: 2px solid black;
+}
+
+#homeLink:hover {
+  background: linear-gradient(to bottom, rgb(51, 27, 209), rgb(255, 5, 168));
+  color: rgb(255, 252, 252);
+}/*# sourceMappingURL=weather.css.map */

@@ -52,4 +52,20 @@ body {
 
 .Link {
   text-align: center;
+  padding: 20px;
+  margin: 20px;
+  color: peachpuff;
+}
+
+#homeLink {
+  color: rgb(142, 77, 19);
+  padding: 20px;
+  background-color: rgb(96, 238, 238);
+  text-decoration: none;
+  border: 2px solid black;
+}
+
+#homeLink:hover {
+  background-color: aqua;
+  color: brown;
 }/*# sourceMappingURL=rps.css.map */

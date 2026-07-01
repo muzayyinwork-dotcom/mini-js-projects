@@ -53,4 +53,17 @@
 
 .Link {
   text-align: center;
+}
+
+#homeLink {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  border: 7px solid yellow;
+}
+
+#homeLink:hover {
+  background-color: rgb(6, 6, 6);
+  color: rgb(255, 255, 255);
 }/*# sourceMappingURL=stopwatch.css.map */
